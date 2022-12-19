@@ -49,7 +49,7 @@ object Btor2Generator extends App {{
 if __name__ == '__main__':
     # chisel_file = "/Users/yuechen/Developer/chisel-projects/ChiselFV/src/main/scala/cases/Memory.scala"
     # run export JAVA_HOME=`/usr/libexec/java_home -v 17.0.1`
-    os.environ["JAVA_HOME"] = "/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home"
+    # os.environ["JAVA_HOME"] = "/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home"
     chiselfv_dir = "./ChiselFV"
     chisel_file = "./cases/Memory.scala"
     converter = Converter(chiselfv_dir, chisel_file, "Memory", "1024,8")
